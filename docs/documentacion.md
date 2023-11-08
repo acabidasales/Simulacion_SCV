@@ -18,3 +18,8 @@ El usuario 1 ha creado el respositorio con la estructura inicial y ha creado las
 
 ![alt text](https://i.imgur.com/2lCqyPs.png)
 ![alt text](https://i.imgur.com/xPTpL1C.png)
+
+
+El usuario 2 ha creado ambos features y los ha añadido a la rama develop tras la supervisión (Pull recuest)
+
+![alt text] (https://i.imgur.com/NTvltCI.png)
