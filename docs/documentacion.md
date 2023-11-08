@@ -23,3 +23,7 @@ El usuario 1 ha creado el respositorio con la estructura inicial y ha creado las
 El usuario 2 ha creado ambos features y los ha añadido a la rama develop tras la supervisión (Pull recuest)
 
 ![alt text](https://i.imgur.com/NTvltCI.png)
+
+El usuario 3 ha creado la feature para modificar el CSS y lo ha añadido a la rama develop tras la supervisión (Pull recuest)
+
+![alt text](https://i.imgur.com/cxD0kWz.png)
