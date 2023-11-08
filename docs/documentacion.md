@@ -34,3 +34,5 @@ El usuario 1 marca el lanzamiento como "v1.0" y crea una nueva rama llamada test
 ![alt text](https://i.imgur.com/XNmgSEX.png)
 
 El usuario 1 ha creado los hooks post-checkout y pre-commit y los ha añadido a la carpeta en la rama main. Tras instalar el plugin, se añade al gitignore la carpeta "node_modules/"
+
+![alt text](https://i.imgur.com/XNmgSEX.png)
