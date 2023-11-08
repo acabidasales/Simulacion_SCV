@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+# FORMATO
+archivo_commit=$1
+mensaje_commit=$(cat "$archivo_commit")
+
+regex_commit="^[A-Z][a-z]*:[[:space:]].*"
+
+if ! [[ $mensaje_commit =~ $regex_commit ]]; then
+  echo "El mensaje de commit no sigue el formato requerido"
+  echo "Ejemplo de mensaje válido: 'Arreglado: Remplazada una imagen en la documentación'"
+  exit 1
+fi
+
+# ENCONTRAR CARACTERES EXTRAÑOS
+regex_caracteres_especiales="[áâàéèêíìîóòôúùû]"
+
+archivos_caracteres=$(git diff --cached --name-only | xargs grep -l "$regex_caracteres_especiales")
+
+if [ -n "$archivos_caracteres" ]; then
+  echo "Error: Los siguientes archivos contienen caracteres especiales:"
+  echo "$archivos_caracteres"
+  echo "Por favor, elimina o corrige los caracteres especiales antes de realizar el commit."
+  exit 1
+fi

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ "$3" = "1" ] || [ "$3" = "0" ]; then
+
+    cd ..
+
+    if [ -d "node_modules" ]; then
+
+    echo "Eliminando la carpeta 'node_modules'"
+
+    rm -rf node_modules
+
+  fi
+
+  echo "Instalando las dependencias"
+
+  npm install
+
+  echo "Instalación completada."
+
+fi

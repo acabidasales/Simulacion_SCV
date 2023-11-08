@@ -27,3 +27,10 @@ El usuario 2 ha creado ambos features y los ha añadido a la rama develop tras l
 El usuario 3 ha creado la feature para modificar el CSS y lo ha añadido a la rama develop tras la supervisión (Pull recuest)
 
 ![alt text](https://i.imgur.com/cxD0kWz.png)
+
+El usuario 1 marca el lanzamiento como "v1.0" y crea una nueva rama llamada test para el testeo del mismo.
+
+![alt text](https://i.imgur.com/cXnlhAu.png)
+![alt text](https://i.imgur.com/XNmgSEX.png)
+
+El usuario 1 ha creado los hooks post-checkout y pre-commit y los ha añadido a la carpeta en la rama main. Tras instalar el plugin, se añade al gitignore la carpeta "node_modules/"
