@@ -22,4 +22,4 @@ El usuario 1 ha creado el respositorio con la estructura inicial y ha creado las
 
 El usuario 2 ha creado ambos features y los ha añadido a la rama develop tras la supervisión (Pull recuest)
 
-![alt text] (https://i.imgur.com/NTvltCI.png)
+![alt text](https://i.imgur.com/NTvltCI.png)
